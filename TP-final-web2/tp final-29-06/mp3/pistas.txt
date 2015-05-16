@@ -1,0 +1,68 @@
+		pista				autor
+electronica
+		whatch out			Alex gaudino FT shenna
+		the kille			Carolina Marquez
+		around the world		Daft punk
+		One more time			Daft punk
+		love is gone			David gueta
+		the rhythm of the night		corona
+		work this pusy			paco maroto
+folklore
+		 amor salvaje			el chaqueño palavecino
+		en mis sueños			la quimera
+		un monton de estrellas		jorge rojas
+		no saber de ti			los nocheros
+		roja boca			los nocheros
+		dejame que me vaya		los nocheros
+		pedime que vuelva		los guaranies
+		si tu te vas			los puesteros
+heavy metal
+		prosthetics			slipknot
+		my plague			slipknot
+		psychosocial			slipknot
+		B.Y.O.B				system of a down
+		aerials				system of a down
+		chop suey			system of a down
+		I'm a not jesus			apocaliptica
+		hallowed be thy name		iron maiden
+		run to the hills		iron maiden
+hip-hop
+		8 miles				eminem
+		rocky balboa			eminem/ shaggy
+		stan				eminem/	dido
+		whithout me			eminem
+		lose yourselft			eminem	
+		 my name is 			eminem
+		stan				eminem
+		pimp				50 cent
+latino
+		mi primavera			banda XXI
+		que bonito			banda XXI
+		choque de cometas		la nueva luna
+		enamorado de ti			la nueva luna
+		danza de los mirlos		damas gratis
+pop
+		better off			ashley simpson
+		givin at all away 		 ashley simpson
+		lala				"	"
+		ashley simpson			"	"
+		love makes the world go round 	"	"
+		nothing new			"	"
+		pieces of me			"	"
+		as long  you love me		back street boys
+		show me the meaning		"	"
+		tell me why			"	"
+		incomplete			"	"
+		girl				beasty boys
+			
+rock
+		back in black			AC/DC
+		amigo				ataque 77
+		aún estás en mis sueños		rata blanca
+		te llevo para que me lleves	Gustavo Cerati
+		el mono relogero		Kapanga
+		murguita del sur		Bersuit
+		agua				los piojos
+		loco un poco 			turf
+		
+	

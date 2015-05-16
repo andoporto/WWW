@@ -1,0 +1,59 @@
+<html>
+<head>
+<script>
+function getXMLHTTP() { 
+		var xmlhttp=false;	
+		try{
+			xmlhttp=new XMLHttpRequest();
+		}
+		catch(e)	{		
+			try{			
+				xmlhttp= new ActiveXObject("Microsoft.XMLHTTP");
+			}
+			catch(e){
+				try{
+				xmlhttp = new ActiveXObject("Msxml2.XMLHTTP");
+				}
+				catch(e){
+					xmlhttp=false;
+				}
+			}
+		}
+		return xmlhttp;
+}
+
+
+function busca(letra) {	
+		var strURL="busca.php?letras="+letra;
+		var req = getXMLHTTP();
+		if (req) {
+			req.onreadystatechange = function() {
+				if (req.readyState == 4) {
+					// only if "OK"
+					if (req.status == 200) {		
+						document.getElementById('valores').innerHTML=req.responseText;
+ 					} else {
+						alert("There was a problem while using XMLHTTP:\n" + req.statusText);
+					}
+				}				
+			}			
+			req.open("GET", strURL, true);
+			req.send(null);
+		}
+}
+</script>
+</head>
+<body>
+<?PHP
+$conn = mysql_connect("localhost","root");
+mysql_select_db("prueba",$conn);
+$res = mysql_query("select * from laboratorio",$conn);
+
+while($fila=mysql_fetch_row($res)){
+
+echo $fila[1]."&nbsp;".$fila[2]."<br>";
+}
+
+?>
+</body>
+</html>

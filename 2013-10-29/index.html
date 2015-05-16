@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>An XHTML 1.0 Strict standard template</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<style type="text/css">
+body {
+	font: 1em/1.5 sans-serif;
+	margin: 1em;
+	padding: 0;
+}
+p, fieldset {
+	margin: 1em 0;
+}
+fieldset {
+	padding: 0 1em;
+	border: 0.25em solid #CCC;
+}
+select, label, button {
+	cursor: pointer;
+}
+form#formContacto fieldset legend {
+	background-color: #CCC;
+	padding: 0.25em;
+}
+form#formContacto fieldset label {
+	width: 7.5em;
+	float: left;
+}
+form#formContacto fieldset input {
+	width: 15em;
+}
+form#formContacto button {
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: #CCC;
+	padding: 0.5em;
+	border: 0.25em solid;
+	border-color: #FFF #666 #666 #FFF;
+}
+</style>
+</head>
+<body>
+<form action="contacto.php" method="post" id="formContacto">
+<fieldset>
+<legend>Formulario de contacto</legend>
+<p><label for="nombre">Nombre</label><input type="text" name="nombre" id="nombre" /></p>
+<p><label for="apellidos">Apellidos</label><input type="text" name="apellidos" id="apellidos" /></p>
+<p><label for="direccion">Dirección</label><input type="text" name="direccion" id="direccion" /></p>
+<p><label for="localidad">Localidad</label><input type="text" name="localidad" id="localidad" /></p>
+<p><label for="provincia">Provincia</label><input type="text" name="provincia" id="provincia" /></p>
+<p><label for="telefono">Teléfono</label><input type="text" name="telefono" id="telefono" /></p>
+<p><label for="email">E-mail</label><input type="text" name="email" id="email" /></p>
+</fieldset>
+<p><button type="submit">Enviar</button></p>
+</form>
+</body>
+</html>

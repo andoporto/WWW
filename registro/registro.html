@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Creación de un portal con PHP y MySQL</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<style type="text/css">
+body {
+	font: 1em/1.5 sans-serif;
+	margin: 1em;
+	padding: 0;
+}
+</style>
+</head>
+<body>
+<h1>Registro</h1>
+<p>Inserte los datos que a continuación se solicitan para crear su cuenta.</p>
+<form name="formContacto" id="formContacto" action="registro.php" method="post">
+<fieldset>
+<legend>Registro</legend>
+<p>
+<label for="nombre">Nombre</label>
+<br />
+<input type="text" name="nombre" id="nombre" />
+</p>
+<p>
+<label for="apellido">Apellido</label>
+<br />
+<input type="text" name="apellido" id="apellido" />
+</p>
+<p>
+<label for="usuario">Usuario</label>
+<br />
+<input type="text" name="usuario" id="usuario" />
+</p>
+<p>
+<label for="contrasenia">Contraseña</label>
+<br />
+<input type="password" name="contrasenia" id="contrasenia" />
+</p>
+<p>
+<label for="email">E-mail</label>
+<br />
+<input type="text" name="email" id="email" />
+</p>
+</fieldset>
+<p><button type="submit">Continuar</button></p>
+</form>
+</body>
+</html>

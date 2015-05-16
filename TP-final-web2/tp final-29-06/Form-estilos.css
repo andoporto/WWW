@@ -1,0 +1,52 @@
+/* ---color de fondo del Body-- */
+body { background-color:black; }
+
+/* ---color  de todos las  label-- */
+label { color:red;  text-align:left; }
+
+select{color:orange;width:110px;}
+
+/* ---estilo del contenedor encabezado con su contenido-- */
+#encabezado {  background-color:blue; width:100%; height:80px; }
+
+
+
+#titulo { color:red; font-size:25px; }
+/* --- Fin estilo del contenedor encabezado con su contenido-- */
+
+.div1{float:left;width:9%;height:300px;}
+.usu{float:left;width:38%;height:100px;}
+.solapa{color:blue;}
+.sola1{width:50%;height:150px;}
+.contenedorTab1{width:100%;height:130px;}
+.contenedorTab2{float:left;width:40%;height:370px;color:orange;border-style:solid;border-width:1px}
+.contenedorTab3{float:left;width:57%;height:370px;color:orange;border-style:solid;border-width:1px}
+#buscar{width:30%;height:100px;float:left;}
+#buscar1{width:70%;height:100px;float:left;}
+#medio{float:left;width:13%;}
+
+/* ---estilo del los contenedores de registracion y login-- */
+#registracion {  background-color:grey; float:left; width:55%; height:300px; border: solid; border-color:red;  }
+#registracion1{  background-color:grey; float:left; width:30%; height:280px; border: solid; border-color:red;  }
+#registracion2{ height:190px; border: solid; border-color:red;  }
+#registracion3{  background-color:grey; float:left; width:80%; height:600px; border: solid; border-color:orange;  }
+#registracion4{width:90%; height:300px; border: solid; border-color:red;  }
+/* ---estilo en los margenes de los botones-- */
+.boton {float:left;width:49%; }
+.boton {float:left;width:30%; }
+
+
+/* ---estilo a los botones de Inicio */
+.botonera {
+       
+	       color:red;
+		   background-color:black;
+		   width:210px;
+		   height:30px;
+		   border:solid;
+		   border:black;
+		   font-size:20px;
+		   border-radius:15px;
+		   
+		  }
+		  

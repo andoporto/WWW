@@ -1,0 +1,7 @@
+-ahi les dejo lo que hice hasta ahora....cualquier recomendacion me avisan.
+1-los tres archivos estan modificados, el resto sigue igual.
+
+-hay que modificar algunos campos de la base de datos(por lo menos son los errores que tenia)..
+1-en la tabla playlist agregar el campo "nombre".
+2-en la misma tabla hay un campo mal escrito(categoria).
+3-crear algunos usuarios  y playlist.

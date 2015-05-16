@@ -1,0 +1,62 @@
+body {
+	font: 1em/1.5 sans-serif;
+	margin: 1em;
+	padding: 0;
+}
+p, pre, ul, ol, dl, table, form, fieldset {
+	margin: 1em 0;
+}
+blockquote {
+	margin: 1em;
+}
+ul, ol {
+	padding-left: 0;
+}
+dd {
+	margin-left: 1em;
+}
+fieldset, table, tr, th, td {
+	border: 0.125em solid #CCC;
+}
+fieldset {
+	padding: 0 1em;
+}
+select, label, button {
+	cursor: pointer;
+}
+table {
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+th, td {
+	padding: 0.5em;
+}
+th {
+	text-align: left;
+}
+form#formCrearMensaje {
+	width: 50%;
+}
+form#formCrearMensaje fieldset legend {
+	background-color: #CCC;
+	padding: 0.25em;
+}
+form#formCrearMensaje fieldset label {
+	width: 10em;
+	float: left;
+}
+form#formCrearMensaje fieldset input, form#formCrearMensaje fieldset textarea {
+	width: 20em;
+}
+orm#formCrearMensaje fieldset textarea {
+	height: 10em;
+}
+form#formCrearMensaje button {
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: #CCC;
+	padding: 0.5em;
+	border: 0.25em solid;
+	border-color: #FFF #666 #666 #FFF;
+}

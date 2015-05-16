@@ -1,0 +1,24 @@
+/* ---estilo de los bordes y texto de la <table> y su contenido-- */
+table,th,td,tr {  border:1px solid;  border-color:blue;  text-align:center; }
+
+/* ---estilo  a todos <th>-- */
+th { color:yellow;  width:130px;  background-color:blue;  }
+
+/* ---color  <td>-- */
+td {  color:blue;  }
+
+/* ---estilo al contenedor de la tabla-- */
+#contenedortabla {  width:70%;  height:25%; }
+
+/* ---estilo al contenedor de los tabs-- */
+#contesolapa {  width:100%;  height:24px;  margin:0 5px 0 30px; }
+
+/* ---estilo de la tabla-- */
+#tabla {  width:100%;  height:150px;  margin:0 5px 0 30px;  }
+
+
+
+
+
+
+

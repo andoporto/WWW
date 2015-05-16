@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>An XHTML 1.0 Strict standard template</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+<script type="text/javascript">
+function cambio(evento) {
+	if (evento.keyCode == 13) {
+		$.ajax({
+			url: 'obtenerdatos.php?valor=' + document.getElementById("texto").value,
+			type: 'GET',
+			cache: false
+		}).done(function(datos) {
+			procesa(datos);
+		});
+	}
+}
+function procesa(datos) {
+	document.getElementById("combo").innerHTML = datos;
+}
+</script>
+</head>
+<body>
+<p>
+<select name="combo" id="combo">
+<option value="none">----</option>
+</select>
+<input type="text" name="texto" id="texto" onkeyup="cambio(event)" />
+</p>
+</body>
+</html>
